@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home Page</title>
+        <link rel="icon" href="./images/Logo.png" type="image/icon type">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Numans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        
+        <div>
+            <nav class="nav-main">
+                <div class="nav-section-one">
+                    <div>
+                        <img
+                            src="./images/small-logo.png"
+                            alt="LOGO"
+                            class="main-logo"
+                        />
+                    </div>
+                    <div>
+                        <ul class="unorderd-list-main">
+                            <li>
+                                <a href="#schedule-meeting" class="schedule-link">Schedule Meet</a>
+
+    <div class="overlay" id="schedule-meeting">
+        <div class="form-container">
+            <a href="#" class="close-btn">&times;</a>
+            <form>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <div class="name-group">
+                        <input type="text" placeholder="First Name*" required>
+                        <input type="text" placeholder="Last Name*" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Email*" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone No.(Optional):</label>
+                    <input type="tel" placeholder="Phone(Optional)">
+                </div>
+
+                <div class="datetime-group">
+                    <div class="form-group">
+                        <label>Preferred Date:</label>
+                        <input type="text" placeholder="DD/MM/YYYY*" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Time:</label>
+                        <input type="text" placeholder="HH:MM AM/PM*" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Question or Comments:</label>
+                    <textarea placeholder="Comments*" required rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="connect-btn">Schedule Meeting</button>
+            </form>
+        </div>
+    </div>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="car-list.html">Best Deals</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a href="login.html"><button class="signInBtn">
+                        <span>
+                            <svg
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-width="0"
+                                viewBox="0 0 24 24"
+                                height="20px"
+                                width="20px"
+                                class="profile-svg"
+                                xmlns="./images/profile.svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M16 9C16 11.2091 14.2091 13 12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5C14.2091 5 16 6.79086 16 9ZM14 9C14 10.1046 13.1046 11 12 11C10.8954 11 10 10.1046 10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9Z"
+                                    fill="currentColor"
+                                ></path>
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 14.0902 3.71255 16.014 4.90798 17.5417C6.55245 15.3889 9.14627 14 12.0645 14C14.9448 14 17.5092 15.3531 19.1565 17.4583C20.313 15.9443 21 14.0524 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12ZM12 21C9.84977 21 7.87565 20.2459 6.32767 18.9878C7.59352 17.1812 9.69106 16 12.0645 16C14.4084 16 16.4833 17.1521 17.7538 18.9209C16.1939 20.2191 14.1881 21 12 21Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
+                        </span>
+                        Sign In
+                    </button></a>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <div class="hero-main-title">
+                Welcome to
+                <span class="highlight-red">SUPREME </span> Dealership
+            </div>
+            <span>Where your dream vehicles await</span>
+        </div>
+        <div class="discover-section">
+            <div class="discover-container">
+                <div class="discover-section-one">
+                    <div class="discover-header">
+                        Discover your
+                        <span class="highlight-red">DREAM</span> Cars <br> Here   
+                    </div>
+                    <div class="discover-inputs">
+                        
+                        <input
+                            type="text"
+                            placeholder="Search by model or type"
+                            class="text"
+                        />
+                    </div>
+                    <div class="discover-inputs">
+                        <input type="text" placeholder="Enter the location" />
+                        <input
+                            type="button"
+                            value="Search"
+                            class="discover-btn"
+                        />
+                    </div>
+                    <div class="car-category-buttons">
+                        <button class="category-btn">Luxury</button>
+                        <button class="category-btn">Sports</button>
+                        <button class="category-btn">SUV</button>
+                        <button class="category-btn">Classic</button>
+                        <button class="category-btn">Electric</button>
+                        <button class="category-btn">New arrivals</button>
+                    </div>
+                    <p>Search with more features: Price - Range - Specifications - Power</p>
+                </div>
+                <div class="discover-section-two">
+                    <img    
+                        src="./images/dash.avif"
+                        height="500px"
+                        alt="Discover"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="featured-section">
+            <div class="featured-section-header">
+                <p>
+                    Our
+                    <span class="highlight-red">Featured </span> Models Include
+                </p>
+            </div>
+
+            <div class="featured-cars-cards">
+
+                <div class="feature-car-card">
+                <img src="./images/Bugatti.jpg" alt="Bugatti Chiron Super Sport" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Bugatti Chiron Super Sport</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2020</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">8.0L W16 quad-turbo</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 1,577 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$4,000,000</div>
+                        
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/koenigsegg.webp" alt="Koenigsegg Jesko" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Koenigsegg Jesko</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">5.0L V8 twin-turbo</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 1,600 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$3,000,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/Pininfarina.jpg" alt="Pininfarina Battista" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Pininfarina Battista</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2022</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">type</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Electric</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic(EV)</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 1,900hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$2,200,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/ferrari.webp" alt="Ferrari F8 Tributo" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Ferrari F8 Tributo</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">3.9L V8 twin-turbo</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 710 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$285,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/McLaren.jpeg" alt="McLaren 720S" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">McLaren 720S</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">4.0L V8 twin-turbo</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 710 hp</span>
+                        </div>
+                    </div>
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$310,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/corvette.webp" alt="Chevrolet Corvette Z06(C8)" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Chevrolet Corvette Z06(C8)</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">5.5L V8 NA</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 670 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$130,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+                
+                <div class="feature-car-card">
+                <img src="./images/mustang.avif" alt="2016 Mustang GT" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">2016 Mustang GT</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2016</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">5.0L V8</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 435 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$32,990</div>
+                    </div>
+                </div>
+                <a href="carinfo.html"><button class="feature-shop-button">Shop Now</button></a>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/civic.jpg" alt="Honda Civic Touring" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Honda Civic Touring</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">3.5L V6 NA</span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> CVT</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 180 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$35,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+                <div class="feature-car-card">
+                <img src="./images/toyota.jpg" alt="Toyota Camry XSE" class="feature-car-image">
+                <div class="feature-main-car-info">
+                    <h2 class="feature-car-title">Toyota Camry XSE</h2>
+                    
+                    <div class="feature-car-info">
+                        <span>Year: <span class="feature-highlight">2023</span></span>
+                        <span class="feature-separator">|</span>
+                        <span>Engine: <span class="feature-highlight">3.5L V6 NA </span></span>
+                    </div>
+                    
+                    <div class="feature-specs">
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1fuel.png"> Petrol</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/gear.png"> Automatic</span>
+                        </div>
+                        <div class="feature-spec-item">
+                            <span><img src="./images/1engine.png"> 301 hp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-price">
+                        <div class="p">Price Starting From:</div> <div class="feature-amount">$4,000,000</div>
+                    </div>
+                </div>
+                <button class="feature-shop-button">Shop Now</button>
+                </div>
+
+            </div>
+
+            <a href="car-list.html"><button class="view-more-btn">View More</button></div></a>
+            
+        </div>
+
+
+
+
+        <div class="category">
+            <p class="category-header">Browse <span>Popular</span> Car Categories</p>
+
+            <div class="grid-container">
+                
+                <div class="category-card">
+                    <img src="./images/sedan.png" alt="Sedan">
+                    <div class="category-name">Sedan</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                  </div>
+                  
+                <div class="category-card">
+                    <img src="./images/hatchback.png" alt="Hatchback">
+                    <div class="category-name">Hatchback</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/suv.png" alt="SUV">
+                    <div class="category-name">SUV</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/diesel.png" alt="Diesel">
+                    <div class="category-name">Diesel</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/electric.png" alt="Electric">
+                    <div class="category-name">Electric</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/pickup-truck.png" alt="Pickup Truck">
+                    <div class="category-name">Pickup Truck</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/electric.png" alt="Electric">
+                    <div class="category-name">Electric</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/coupe.png" alt="Coupe">
+                    <div class="category-name">Coupe</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/minivans.png" alt="Minivans">
+                    <div class="category-name">Minivans</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/van.png" alt="Van">
+                    <div class="category-name">Van</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/luxury-car.png" alt="Luxury Cars">
+                    <div class="category-name">Luxury Cars</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/convertible.png" alt="Convertible">
+                    <div class="category-name">Convertible</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/hybrid.png" alt="Hybrid">
+                    <div class="category-name">Hybrid</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/supercars.png" alt="Supercars">
+                    <div class="category-name">Supercars</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+                <div class="category-card">
+                    <img src="./images/hypercars.png" alt="Hypercars">
+                    <div class="category-name">Hypercars</div>
+                    <div class="circle"></div>
+                    <div class="click-text">Click here for more details</div>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <div class="comparison-selection">
+            <p class="comparison-title"><spam class="highlight-red">Compare</spam> Your Desired Cars Here</p>
+
+            <div class="container">
+                <div class="vehicle-selectors">
+                    <select class="vehicle-select">
+                        <option>2025 Toyota Camry - $28,400</option>
+                        <option>2024 SUV Elite - $45,000</option>
+                        <option>2024 Sport GT - $55,000</option>
+                        <option>2024 Hybrid ECO - $38,000</option>
+                    </select>
+                    <select class="vehicle-select">
+                        <option>Honda Accord- $28,300</option>
+                        <option>2024 Sedan Pro - $35,000</option>
+                        <option>2024 Sport GT - $55,000</option>
+                        <option>2024 Hybrid ECO - $38,000</option>
+                    </select>
+                    <select class="vehicle-select">
+                        <option>Nissan Altima - $27,000</option>
+                        <option>2024 Sedan Pro - $35,000</option>
+                        <option>2024 Sport GT - $55,000</option>
+                        <option>2024 Hybrid ECO - $38,000</option>
+                    </select>
+                </div>
+
+                <div class="comparison-grid">
+                    <div class="vehicle-card">
+                        <div class="card-header">
+                            <div class="model-info">
+                                <div class="model-name">
+                                    <div class="icon-container">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M19 17h2v-3.3c0-.5-.3-1-.7-1.3L17 10V7.5c0-.8-.7-1.5-1.5-1.5h-11C3.7 6 3 6.7 3 7.5V10l-3.3 2.4c-.4.3-.7.8-.7 1.3V17h2M6 17h12" stroke="white"/>
+                                        </svg>
+                                    </div>
+                                    <h2 class="model-title">Toyota Camry</h2>
+                                </div>
+                                <span>2025</span>
+                            </div>
+                            <div class="price">$28,400</div>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="image-upload">
+                               
+                                <img class="upload-overlay" src="./images/camry.jpg" alt="Image">
+
+                            </div>
+
+                            <div class="specs-grid">
+                                <div class="spec-item">
+                                    <span class="spec-label">Engine</span>
+                                    <span class="spec-value">2.5L inline4 hybrid</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Transmission</span>
+                                    <span class="spec-value">CVT</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Horsepower</span>
+                                    <span class="spec-value">225 hp/ 232 hp</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Economy</span>
+                                    <span class="spec-value">24 - 53mpg</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Total Mileage</span>
+                                    <span class="spec-value">0mi</span>
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <h3 class="features-title">Key Features</h3>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    8.0 touchscreen
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Wireless Apple Carplay
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Android Auto Integration
+                                </div>
+                            </div>
+
+                            <button class="cta-button">
+                                View Details
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vehicle-card">
+                        <div class="card-header">
+                            <div class="model-info">
+                                <div class="model-name">
+                                    <div class="icon-container">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M19 17h2v-3.3c0-.5-.3-1-.7-1.3L17 10V7.5c0-.8-.7-1.5-1.5-1.5h-11C3.7 6 3 6.7 3 7.5V10l-3.3 2.4c-.4.3-.7.8-.7 1.3V17h2M6 17h12" stroke="white"/>
+                                        </svg>
+                                    </div>
+                                    <h2 class="model-title">Honda Accord</h2>
+                                </div>
+                                <span>2024</span>
+                            </div>
+                            <div class="price">$28,300</div>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="image-upload">
+                                
+                                <img class="upload-overlay" src="./images/accord.jpg" alt="Image">
+                            </div>
+
+                            <div class="specs-grid">
+                                <div class="spec-item">
+                                    <span class="spec-label">Engine</span>
+                                    <span class="spec-value">1.5L turbocharged/hybrid</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Transmission</span>
+                                    <span class="spec-value">CVT</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Horsepower</span>
+                                    <span class="spec-value">192hp</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Economy</span>
+                                    <span class="spec-value">37 - 51 mpg</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Total Mileage</span>
+                                    <span class="spec-value">0mi</span>
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <h3 class="features-title">Key Features</h3>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Digital cluster
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    7.0 inch touchscreen
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Wireless Apple Carplay
+                                </div>
+                            </div>
+
+                            <button class="cta-button">
+                                View Details
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vehicle-card">
+                        <div class="card-header">
+                            <div class="model-info">
+                                <div class="model-name">
+                                    <div class="icon-container">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M19 17h2v-3.3c0-.5-.3-1-.7-1.3L17 10V7.5c0-.8-.7-1.5-1.5-1.5h-11C3.7 6 3 6.7 3 7.5V10l-3.3 2.4c-.4.3-.7.8-.7 1.3V17h2M6 17h12" stroke="white"/>
+                                        </svg>
+                                    </div>
+                                    <h2 class="model-title">Nissan Altima </h2>
+                                </div>
+                                <span>2025</span>
+                            </div>
+                            <div class="price">$27,000</div>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="image-upload">
+                                
+                                <img class="upload-overlay" src="./images/altima.jpg" alt="Image">
+                            </div>
+
+                            <div class="specs-grid">
+                                <div class="spec-item">
+                                    <span class="spec-label">Engine</span>
+                                    <span class="spec-value">2.5L DOHC</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Transmission</span>
+                                    <span class="spec-value">CVT</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Horsepower</span>
+                                    <span class="spec-value">188hp</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Economy</span>
+                                    <span class="spec-value">27- 39 mpg</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Total Mileage</span>
+                                    <span class="spec-value">100mi</span>
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <h3 class="features-title">Key Features</h3>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Advanced Nissan Safety Features
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Available AI
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    Active Ride Control
+                                </div>
+                            </div>
+
+                            <button class="cta-button">
+                                View Details
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="About-us">
+            <div class= "yus">
+                <div class="h">
+                <p1>Why Connect With <br><span style="color:red">Supreme</span> Dealership?</p1>
+                <p>Experience the Supreme difference with our commitment to excellence, unmatched 
+                    customer service, and industry-leading benefits.</p>
+                </div>
+
+                <div class="container2">
+                    <div class="box">
+                        <img src="./images/shield.png">
+                        <h3><span style="color: red">Trusted </span>Reputation</h3>
+                        <p>At Supreme Dealership, trust and quality are our foundations. We deliver 
+                            top-tier products and exceptional service, ensuring transparency, integrity, 
+                            and customer satisfaction every step of the way.</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./images/award.png">
+                        <h3><span style="color: red">Award-Winning </span>Service</h3>
+                        <p>Our commitment to excellence has earned us recognition and awards for 
+                            outstanding service. We go above and beyond to deliver an unparalleled 
+                            experience that exceeds customer expectations every time.</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./images/money.png">
+                        <h3><span style="color: red">Competitive </span>Pricing</h3>
+                        <p>We offer premium products and services at prices that deliver unbeatable 
+                            value. We continuously evaluate the market to ensure our customers always 
+                            get the most competitive deals without compromising.</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./images/clock.png">
+                        <h3><span style="color: red">Express </span>Service</h3>
+                        <p>Our Express Service ensures quick, efficient, and high-quality solutions to 
+                            get you back on track without delay. With streamlined processes and a dedicated 
+                            team, we deliver exceptional results in record time, every time.</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./images/cash.png">
+                        <h3>Great <span style="color: red">Financial </span>Service</h3>
+                        <p>Whether you’re looking for flexible terms or competitive rates, our expert team 
+                            works with you to create a plan tailored to your needs and budget, ensuring a 
+                            hassle-free experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class= "review">
+            <div class="h">
+            <p1>Some <span style="color:red">Reviews </span>From Our Recent <span style="color:red">Customers</span></p1>
+            </div>
+
+            <div class="container3">
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p1.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+            
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p2.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+            
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p3.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+        
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p3.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+        
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p4.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+            
+                <div class="review-card">
+                    <div class="profile">
+                        <img src="./images/p5.png" alt="User Profile"> 
+                        <div>
+                            <h3>Robert Fox</h3>
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="review-title">"Dream Car with Supreme Service!"</div>
+                    <p class="review-text">
+                        I’ve always wanted a Mustang, and the 2016 GT didn’t disappoint! 
+                        The power of the V8 engine is unreal, and the sleek design turns heads 
+                        everywhere I go. Supreme Dealership made the process effortless—they were 
+                        patient, answered all my questions, and got me a great deal. Highly recommend.
+                    </p>
+                </div>
+            </div>
+
+
+            <button class="buttons" type="button">View More</button>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-column logo">
+                <img src="./images/Logo.png" alt="Supreme Logo">
+            </div>
+        
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Best Deals</li>
+                    <li>Latest Arrivals</li>
+                    <li>Exchange Offers</li>
+                    <li>Finance</li>
+                    <li>Feedback</li>
+                </ul>
+            </div>
+        
+                <div class="footer-column">
+                    <h3>Hours of Operation</h3>
+                    <p>• Monday - Friday: <br><span>9:00 AM - 8:00 PM</span></p>
+                    <p>• Saturday: <br><span>10:00 AM - 6:00 PM</span></p>
+                    <p>• Sunday: <br><span>Closed</span></p>
+                </div>
+        
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <img src="./images/call.png" alt="Phone Icon">
+                    <span>Phone: +977 9888888888</span>
+                </div>
+                <div class="contact-info">
+                    <img src="./images/mail.png" alt="Email Icon">
+                    <span>Email: supremedealership@gmail.com</span>
+                </div>
+                <div class="contact-info">
+                    <img src="./images/garage.png" alt="Address Icon">
+                    <span>Address: Maitidevi, Kathmandu, Nepal</span>
+                </div>
+        
+                <div class="connect">
+                    <p>Connect with us</p>
+                    <div class="social-icons">
+                        <img src="./images/facebook.png" alt="Facebook">
+                        <img src="./images/instagram.png" alt="Instagram">
+                        <img src="./images/youtube.png" alt="YouTube">
+                        <img src="./images/linkedin.png" alt="LinkedIn">
+                        <img src="./images/tiktok.png" alt="TikTok">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+</html>

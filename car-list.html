@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="icon" href="./images/Logo.png" type="image/icon type">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Numans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./css/allsec.css">
+</head>
+<body><a id="top"></a>
+    <nav class="nav-main">
+        <div class="nav-section-one">
+            <div>
+                <img
+                    src="./images/small-logo.png"
+                    alt="LOGO"
+                    class="main-logo"
+                />
+            </div>
+            <div>
+                <ul class="unorderd-list-main">
+                    <li>
+                        <a href="#schedule-meeting" class="schedule-link">Schedule Meet</a>
+
+                        <div class="overlay" id="schedule-meeting">
+                            <div class="form-container">
+                                <a href="#" class="close-btn">&times;</a>
+                                <form>
+                                    <div class="form-group1">
+                                        <label>Name:</label>
+                                        <div class="name-group">
+                                            <input type="text" placeholder="First Name*" required>
+                                            <input type="text" placeholder="Last Name*" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group1">
+                                        <label>Email:</label>
+                                        <input type="email" placeholder="Email*" required>
+                                    </div>
+
+                                    <div class="form-group1">
+                                        <label>Phone No.(Optional):</label>
+                                        <input type="tel" placeholder="Phone(Optional)">
+                                    </div>
+
+                                    <div class="datetime-group">
+                                        <div class="form-group1">
+                                            <label>Preferred Date:</label>
+                                            <input type="text" placeholder="DD/MM/YYYY*" required>
+                                        </div>
+                                        <div class="form-group1">
+                                            <label>Preferred Time:</label>
+                                            <input type="text" placeholder="HH:MM AM/PM*" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group1">
+                                        <label>Question or Comments:</label>
+                                        <textarea placeholder="Comments*" required rows="4"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="connect-btn">Schedule Meeting</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="contactUs.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="allsec.html">Best Deals</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <a href="login.html">
+                <button class="signInBtn">
+                    <span>
+                        <svg
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            height="20px"
+                            width="20px"
+                            class="profile-svg"
+                            xmlns="./images/profile.svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M16 9C16 11.2091 14.2091 13 12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5C14.2091 5 16 6.79086 16 9ZM14 9C14 10.1046 13.1046 11 12 11C10.8954 11 10 10.1046 10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9Z"
+                                fill="currentColor"
+                            ></path>
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 14.0902 3.71255 16.014 4.90798 17.5417C6.55245 15.3889 9.14627 14 12.0645 14C14.9448 14 17.5092 15.3531 19.1565 17.4583C20.313 15.9443 21 14.0524 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12ZM12 21C9.84977 21 7.87565 20.2459 6.32767 18.9878C7.59352 17.1812 9.69106 16 12.0645 16C14.4084 16 16.4833 17.1521 17.7538 18.9209C16.1939 20.2191 14.1881 21 12 21Z"
+                                fill="currentColor"
+                            ></path>
+                        </svg>
+                    </span>
+                    Sign In
+                </button></a>
+            </div>
+        </nav>
+    
+    <section class="hero">
+        <img src="./images/2dealership.png" class="hero-bg" alt="Dealership">
+        <a href="index.html"><button class="back-btn"><img src="./images/arrow.png">Back</button></a>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                BUY <span class="red-text">New / Used</span> Cars In 
+                <span class="red-text">Best</span> Possible Prices
+            </h1>
+            <div class="search-container">
+                <h2 class="search-title">
+                    <span class="red-text">Search</span> by make, model or type
+                </h2>
+                <div class="search-input">
+                    <img src="./images/search.png">
+                    <input type="text" placeholder="Search by Keyword" class="search-bar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contents">
+        <div class="main-filter-container">
+            <div class="content-heading-text">Filter</div>
+            <div class="filter-container">
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked> At Stock
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked> Big Offers
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked> Coming Soon
+                    </label>
+                </div>
+        
+                <div class="form-group">
+                    <label>New/Used</label>
+                    <select>
+                        <option value="" selected disabled>Select option</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label>Year</label>
+                    <div class="range-group">
+                        <select>
+                            <option value="" selected disabled>From</option>
+                        </select>
+                        <span class="range-separator">-</span>
+                        <select>
+                            <option value="" selected disabled>To</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Distance</label>
+                    <div class="range-group">
+                        <select>
+                            <option value="" selected disabled>From</option>
+                        </select>
+                        <span class="range-separator">-</span>
+                        <select>
+                            <option value="" selected disabled>To</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="two-column">
+                    <div class="form-group">
+                        <label>Drive Type</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Model</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Make</label>
+                    <select>
+                        <option value="" selected disabled>Select</option>
+                    </select>
+                </div>
+        
+                <div class="two-column">
+                    <div class="form-group">
+                        <label>Body Type</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Number of Seats</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="two-column">
+                    <div class="form-group">
+                        <label>Gearbox</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Power</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="two-column">
+                    <div class="form-group">
+                        <label>Color</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Fuel</label>
+                        <select>
+                            <option value="" selected disabled>Select</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-container">
+            <div class="main-content">
+                <div class="content-heading-text">Car List</div>
+                <div class="sort-container">
+                    <label for="sortBy" class="sort-label">Sort By:</label>
+                    <div class="sort-dropdown">
+                    <select id="sortBy" aria-label="Sort cars by">
+                        <option value="">Select</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="year-desc">Year: Newest First</option>
+                        <option value="year-asc">Year: Oldest First</option>
+                    </select>
+                    </div>
+            </div></div>
+            <div class="main-list">
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/mustang.avif" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>2016 Mustang GT</h2>
+                    <pre>Year: 2016      |     100km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    <div class="deal">
+                        <div class="d-png">
+                            <img src="./images/1fire.png" alt="fire">
+                        </div>
+                        <p>Hot car</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>435hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$30,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <a href="carinfo.html"><button type="button">Shop Now</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/benz.jpg" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>Mercedes Benz C180 </h2>
+                    <pre>Year: 2020      |    1200km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    <div class="deal">
+                        <div class="d-png">
+                            <img src="./images/1fire.png" alt="fire">
+                        </div>
+                        <p>Hot car</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>200hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$40,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <button type="button">Shop Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/elantra.png" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>Hyundai Elantra 2.0</h2>
+                    <pre>Year: 2021      |     126km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>126hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$15,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <button type="button">Shop Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/citreon.png" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>Citroen c4</h2>
+                    <pre>Year: 2016      |     1200km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>160hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$28,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <button type="button">Shop Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/2benz.png" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>Mercedes Benz a180</h2>
+                    <pre>Year: 2016      |     1200km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    <div class="deal">
+                        <div class="d-png">
+                            <img src="./images/1fire.png" alt="fire">
+                        </div>
+                        <p>Hot car</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>435hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$32,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <button type="button">Shop Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <div class="car-img-div">
+                <div class="car-list-img">
+                    <img style="border-radius: 15px;" height="100%" width="100%" src="./images/3benz.png" alt="list-car-1">
+                </div>
+                </div>
+                <div class="car-spec-div">
+                <div class="car-spec-list">
+                    <div class="name-year">
+                    <h2>Mercedes Benz E200</h2>
+                    <pre>Year: 2011      |    2200km</pre>
+                    </div>
+                    <div class="deals">
+                    <div class="deal">
+                        <div class="d-png">
+                        <img src="./images/1uparrow.png" alt="up-arrow" height="15px">
+                        </div>
+                        <p>Great deal</p>
+                    </div>
+                    <div class="deal">
+                        <div class="d-png">
+                            <img src="./images/1fire.png" alt="fire">
+                        </div>
+                        <p>Hot car</p>
+                    </div>
+                    </div>
+                    <div class="types">
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1fuel.png" alt="img">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/gear.png" alt="img">
+                        <p>Automatic</p>
+                    </div>
+                    <div class="types-box">
+                        <img style="background-color: white;" src="./images/1engine.png" alt="img">
+                        <p>435hp</p>
+                    </div>
+                    </div>
+                    <div class="price">
+                    <p>Price Starting From: </p>
+                    <p>$10,000</p>
+                    </div>
+                    <div class="shop-btn">
+                    <button type="button">Shop Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="bottom">
+                <a href="#top"><button type="menu" class="Go-up" onclick="scrollToTop()" ><img src="./images/uparrow.png">Go Up</button></a>
+                <button type="button" class="show-more-btn">Shop More</button>
+                <div class="count">
+                    <img src="./images/left-arrow.png">
+                    <img src="./images/1.png">
+                    <img src="./images/2.png">
+                    <img src="./images/3.png">
+                    <img src="./images/4.png">
+                    <img src="./images/5.png">
+                    <img src="./images/right-arrow.png">
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+        </div>
+        
+        
+    </div>
+    
+
+    <footer class="footer">
+        <div class="footer-column logo">
+            <img src="./images/Logo.png" alt="Supreme Logo">
+        </div>
+
+        <div class="footer-column">
+            <div class="hd">Quick Links</div>
+            <ul>
+                <li>Best Deals</li>
+                <li>Latest Arrivals</li>
+                <li>Exchange Offers</li>
+                <li>Finance</li>
+                <li>Feedback</li>
+            </ul>
+        </div>
+    
+            <div class="footer-column">
+                <div class="hd">Hours of Operation</div>
+                <p>• Monday - Friday: <br><span>9:00 AM - 8:00 PM</span></p>
+                <p>• Saturday: <br><span>10:00 AM - 6:00 PM</span></p>
+                <p>• Sunday: <br><span>Closed</span></p>
+            </div>
+    
+        <div class="footer-column">
+            <div class="hd">Contact Us</div>
+            <div class="contact-info">
+                <img src="./images/call.png" alt="Phone Icon">
+                <span>Phone: +977 9888888888</span>
+            </div>
+            <div class="contact-info">
+                <img src="./images/mail.png" alt="Email Icon">
+                <span>Email: supremedealership@gmail.com</span>
+            </div>
+            <div class="contact-info">
+                <img src="./images/garage.png" alt="Address Icon">
+                <span>Address: Maitidevi, Kathmandu, Nepal</span>
+            </div>
+    
+            <div class="connect">
+                <p>Connect with us</p>
+                <div class="social-icons">
+                    <img src="./images/facebook.png" alt="Facebook">
+                    <img src="./images/instagram.png" alt="Instagram">
+                    <img src="./images/youtube.png" alt="YouTube">
+                    <img src="./images/linkedin.png" alt="LinkedIn">
+                    <img src="./images/tiktok.png" alt="TikTok">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
