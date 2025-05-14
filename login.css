@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.login-image {
+  width: 56%;
+  background-color: rgb(53, 171, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.login-panel {
+  height: 100%;
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-items-div {
+  height: 70%;
+  width: 70%;
+  justify-content: center;
+}
+
+.log-requirements {
+  height: 90%;
+  width: 70%;
+  margin-left: 6vh;
+}
+
+.log-items1 {
+  height: 50%;
+}
+
+.login-heading{
+  font-family: "Numans", serif;
+  font-size: 25px;
+}
+
+.login-subheading{
+  font-family: "Roboto", serif;
+  font-size: 16px;
+}
+
+.log-p-1 {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  padding-top: 25px;
+  padding-left: 2px;
+}
+
+.log-input {
+  padding: 10px;
+  width: 100%; /* Full width to adjust dynamically */
+  max-width: 41vh;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  margin-top: 11px;
+  margin-left: 2px;
+}
+
+.log-items2 {
+  height: 50%;
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-sign-div {
+  height: fit-content;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  padding: 12px;
+  width: auto; /* Adjust to make buttons more flexible */
+  color: white;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  background-color: rgb(255, 35, 35);
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+}
+
+.texts-log-div {
+  height: 110px;
+}
+
+.text-log-p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  color: rgb(245, 11, 11);
+  margin-right: 15px;
+}
+
+.text-log-p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: grey;
+  font-family: "Roboto", serif;
+  width: fit-content;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .login-image {
+    width: 50%;
+  }
+
+  .login-panel {
+    width: 50%;
+  }
+
+  .log-requirements {
+    width: 80%;
+    margin-left: 5vh;
+  }
+
+  .log-input {
+    max-width: 35vh;
+  }
+
+  .buttons {
+    width: 40%;
+  }
+
+  .log-items1, .log-items2 {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-div {
+    flex-direction: column;
+  }
+
+  .login-image,
+  .login-panel {
+    width: 100%;
+  }
+
+  .login-items-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .log-requirements {
+    width: 90%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .log-input {
+    width: 80%;
+    max-width: none; /* Allow input to grow dynamically */
+  }
+
+  .buttons {
+    width: auto;
+  }
+
+  .texts-log-div {
+    padding: 20px 0;
+  }
+
+  .text-log-p1, .text-log-p2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-div {
+    flex-direction: column;
+  }
+
+  .login-image,
+  .login-panel {
+    width: 100%;
+  }
+
+  .login-items-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .log-requirements {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .log-input {
+    width: 100%;
+  }
+
+  .buttons {
+    width: 90%;
+  }
+
+  .log-items1, .log-items2 {
+    flex-direction: column;
+  }
+
+  .buttons {
+    width: 90%; /* Full width buttons on very small devices */
+  }
+}
